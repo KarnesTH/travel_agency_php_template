@@ -1,0 +1,66 @@
+body {
+  color: #818c8d;
+}
+
+main {
+  font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: .9375rem;
+}
+
+.fullwidth-block {
+  padding: 0;
+}
+
+.fullwidth-block .container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.form-control, .btn {
+  font-size: .85rem;
+}
+
+legend {
+  font-size: 1.1rem;
+}
+
+fieldset {
+  padding: 0.5em 1em;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1),0 4px 20px 0 rgba(0,0,0,0.09);
+}
+
+.bg-success {
+  background: #ffaa39 !important;
+}
+
+.btn-tplcolor {
+  color: #fff;
+  background-color:rgb(25, 189, 206);
+  border-color: rgb(25, 189, 206);
+}
+
+.btn-tplcolor:hover {
+  color: #ffaa39;
+  background-color: rgba(25, 189, 206, .8);
+  border-color: rgba(25, 189, 206, .8);
+}
+
+@media (min-width: 992px) {
+  .x-gap {
+    justify-content: space-between;
+  }
+
+  .x-gap > .col-lg-4 {
+    flex-basis: calc(33.3333% - 0.5em);
+  }
+
+  .x-gap > .col-lg-6 {
+    flex-basis: calc(50% - 0.5em);
+  }
+
+  .x-gap > .col-lg-8 {
+    flex-basis: calc(66.666667% - 0.5em);
+  }
+}
+
+
