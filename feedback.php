@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
    <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,17 +34,17 @@
                <div class="header-content">
                   <div class="branding">
                      <img src="images/logo.png" alt="Company Name" class="logo">
-                     <h1 class="site-title"><a href="index.html">Company Name</a></h1>
+                     <h1 class="site-title"><a href="index.php">Company Name</a></h1>
                      <small class="site-description">Tagline goes here</small>
                   </div>
                   
                   <nav class="main-navigation">
                      <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
                      <ul class="menu">
-                        <li class="menu-item"><a href="about-us.html">About us</a></li>
-                        <li class="menu-item"><a href="our-offer.html">Our Offer</a></li>
-                        <li class="menu-item"><a href="customer-protection.html">Customer Protection</a></li>
-                        <li class="menu-item"><a href="contact.html">Contact</a></li>
+                        <li class="menu-item"><a href="about-us.php">About us</a></li>
+                        <li class="menu-item"><a href="our-offer.php">Our Offer</a></li>
+                        <li class="menu-item"><a href="customer-protection.php">Customer Protection</a></li>
+                        <li class="menu-item"><a href="contact.php">Contact</a></li>
                      </ul>
                   </nav>
                   
@@ -56,7 +56,7 @@
                   </div>
                </div>
                <nav class="breadcrumbs">
-                  <a href="index.html">Home</a> &rarr;
+                  <a href="index.php">Home</a> &rarr;
                   <span>Feedback</span>
                </nav>
             </div>
@@ -181,7 +181,7 @@
                   <li><a href="#">Dolore magnam</a></li>
                   <li><a href="#">Magnam Labore et</a></li>
                   <li><a href="#">Dolore mabore magnam</a></li>
-                  <li><a href="feedback.html">Feedback Formular</a></li>
+                  <li><a href="feedback.php">Feedback Formular</a></li>
                 </ul>
               </div>
             </div>
@@ -193,7 +193,7 @@
                   <li><a href="#">Dolore magnam</a></li>
                   <li><a href="#">Magnam Labore et</a></li>
                   <li><a href="#">Dolore mabore magnam</a></li>
-                  <li><a href="feedback.html">Feedback Formular</a></li>
+                  <li><a href="feedback.php">Feedback Formular</a></li>
                 </ul>
               </div>
             </div>
@@ -214,7 +214,7 @@
         <div class="container">
           <div class="branding pull-left">
             <img src="images/logo-footer.png" alt="Company Name" class="logo">
-            <h1 class="site-title"><a href="index.html">Company Name</a></h1>
+            <h1 class="site-title"><a href="index.php">Company Name</a></h1>
             <small class="site-description">Tagline goes here</small>
           </div>
 
