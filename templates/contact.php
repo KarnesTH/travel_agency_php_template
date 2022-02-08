@@ -36,10 +36,10 @@
                   <nav class="main-navigation">
                      <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
                      <ul class="menu">
-                        <li class="menu-item"><a href="about-us.php">About us</a></li>
-                        <li class="menu-item"><a href="our-offer.php">Our Offer</a></li>
-                        <li class="menu-item"><a href="customer-protection.php">Customer Protection</a></li>
-                        <li class="menu-item current-menu-item"><a href="contact.php">Contact</a></li>
+                        <li class="menu-item"><a href="index.php?action=about-us">About us</a></li>
+                        <li class="menu-item"><a href="index.php?action=our-offer">Our Offer</a></li>
+                        <li class="menu-item"><a href="index.php?action=customer-protection">Customer Protection</a></li>
+                        <li class="menu-item current-menu-item"><a href="index.php?action=contact">Contact</a></li>
                      </ul>
                   </nav>
                   
@@ -110,7 +110,7 @@
                               <li><a href="#">Dolore magnam</a></li>
                               <li><a href="#">Magnam Labore et</a></li>
                               <li><a href="#">Dolore mabore magnam</a></li>
-                              <li><a href="feedback.php">Feedback Formular</a></li>
+                              <li><a href="index.php?action=feedback">Feedback Formular</a></li>
                            </ul>
                         </div>
                      </div>
@@ -122,7 +122,7 @@
                               <li><a href="#">Dolore magnam</a></li>
                               <li><a href="#">Magnam Labore et</a></li>
                               <li><a href="#">Dolore mabore magnam</a></li>
-                              <li><a href="feedback.php">Feedback Formular</a></li>
+                              <li><a href="index.php?action=feedback">Feedback Formular</a></li>
                            </ul>
                         </div>
                      </div>
