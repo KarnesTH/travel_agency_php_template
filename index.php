@@ -3,22 +3,24 @@
 $action = $_GET['action'] ?? 'main';
 
 switch ($action) {
-    case 'about-us':
-        require_once __DIR__ . '/templates/about-us.php';
+    case 'aboutus':
+        $template = 'about-us';
         break;
-    case 'our-offer':
-        require_once __DIR__ . '/templates/our-offer.php';
+    case 'ouroffer':
+        $template = 'our-offer';
         break;
-    case 'customer-protection':
-        require_once __DIR__ . '/templates/customer-protection.php';
+    case 'customerprotection':
+        $template = 'customer-protection';
         break;
     case 'contact':
-        require_once __DIR__ . '/templates/contact.php';
+        $template = 'contact';
         break;
     case 'feedback':
-        require_once __DIR__ . '/templates/feedback.php';
+        $template = 'feedback';
         break;
     default:
-        require_once __DIR__ . '/templates/main.php';
+        $template = 'main';
         break;
 }
+
+require_once __DIR__ . '/templates/' . $template . '.php';

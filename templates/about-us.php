@@ -36,9 +36,9 @@
                   <nav class="main-navigation">
                      <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
                      <ul class="menu">
-                        <li class="menu-item current-menu-item"><a href="index.php?action=about-us">About us</a></li>
-                        <li class="menu-item"><a href="index.php?action=our-offer">Our Offer</a></li>
-                        <li class="menu-item"><a href="index.php?action=customer-protection">Customer Protection</a></li>
+                        <li class="menu-item current-menu-item"><a href="index.php?action=aboutus">About us</a></li>
+                        <li class="menu-item"><a href="index.php?action=ouroffer">Our Offer</a></li>
+                        <li class="menu-item"><a href="index.php?action=customerprotection">Customer Protection</a></li>
                         <li class="menu-item"><a href="index.php?action=contact">Contact</a></li>
                      </ul>
                   </nav>
