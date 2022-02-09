@@ -1,8 +1,10 @@
 <?php
 
+require_once __DIR__ . '/src/Controllers/IndexController.php';
+
 $action = $_GET['action'] ?? 'main';
 
-switch ($action) {
+/*switch ($action) {
     case 'aboutus':
         $template = 'about-us';
         break;
@@ -23,4 +25,7 @@ switch ($action) {
         break;
 }
 
-require_once __DIR__ . '/templates/' . $template . '.php';
+require_once __DIR__ . '/templates/' . $template . '.php'; */
+
+$requestController = new IndexController();
+$requestController->run($action);
