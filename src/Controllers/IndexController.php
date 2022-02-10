@@ -1,32 +1,39 @@
 <?php
 
 class IndexController {
-    public function run($action) {
-        // switch ($action) {
-        //     case 'aboutus':
-        //         $template = 'about-us';
-        //         break;
-        //     case 'ouroffer':
-        //         $template = 'our-offer';
-        //         break;
-        //     case 'customerprotection':
-        //         $template = 'customer-protection';
-        //         break;
-        //     case 'contact':
-        //         $template = 'contact';
-        //         break;
-        //     case 'feedback':
-        //         $template = 'feedback';
-        //         break;
-        //     default:
-        //         $template = 'main';
-        //         break;
-        // }
-        $template = $action;
-        $this->render($template);
+    protected $siteParameter;
+    protected $context = [];
+    
+    public function __construct($siteParameter) {
+        $this->setSiteParameter($siteParameter);
     }
 
-    protected function render($template) {
-        require_once 'templates/' . $template . '.php';
+    public function run() {
+
+        # switch-Statement komplett ersetzen
+        # Fälle berücksichtigen: falls ein action-Value keine Template-Datei hat
+        # Problematik: Name Template und Name action-Value
+        # Daten an View übergeben
+
+        
+        
+        $this->render();
+    }
+
+    protected function addContext($key, $value) {
+        $this->context[$key] = $value;
+        return $this;
+    }
+
+    protected function render() {
+        extract($this->siteParameter, EXTR_PREFIX_ALL, 'sp');
+        extract($this->context);
+
+        require_once 'templates/' . $sp_template;
+    }
+
+    public function setSiteParameter($siteParameter) {
+        $this->siteParameter = $siteParameter;
+        return $this;
     }
 }

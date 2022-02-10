@@ -1,31 +1,17 @@
 <?php
 
+require_once __DIR__ . '/inc/config.inc.php';
 require_once __DIR__ . '/src/Controllers/IndexController.php';
 
-$action = $_GET['action'] ?? 'main';
+// $action = $_GET['action'] ?? 'main';
 
-/*switch ($action) {
-    case 'aboutus':
-        $template = 'about-us';
-        break;
-    case 'ouroffer':
-        $template = 'our-offer';
-        break;
-    case 'customerprotection':
-        $template = 'customer-protection';
-        break;
-    case 'contact':
-        $template = 'contact';
-        break;
-    case 'feedback':
-        $template = 'feedback';
-        break;
-    default:
-        $template = 'main';
-        break;
-}
+// if (isset($_GET['action']) && defined(strtoupper($_GET['action']))) {
+//     $siteParameter = constant(strtoupper($_GET['action']));
+// } else {
+//     $siteParameter = MAIN;
+// }
 
-require_once __DIR__ . '/templates/' . $template . '.php'; */
+$siteParameter = (isset($_GET['action']) && defined(strtoupper($_GET['action']))) ? constant(strtoupper($_GET['action'])) : MAIN;
 
-$requestController = new IndexController();
-$requestController->run($action);
+$requestController = new IndexController($siteParameter);
+$requestController->run();
