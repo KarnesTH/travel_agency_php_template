@@ -29,7 +29,9 @@ class IndexController {
         extract($this->siteParameter, EXTR_PREFIX_ALL, 'sp');
         extract($this->context);
 
+        require_once 'templates/header.tpl.php';
         require_once 'templates/' . $sp_template;
+        require_once 'templates/footer.tpl.php';
     }
 
     public function setSiteParameter($siteParameter) {

@@ -1,31 +1,45 @@
 <?php
 
 define ('MAIN', [
-    'template' => 'main.php',
+    'action' => 'main',
+    'name' => 'Main',
+    'template' => 'main.tpl.php',
     'title' => 'Company Name - Main'
 ]);
 
 define ('ABOUTUS', [
-    'template' => 'about-us.php',
+    'action' => 'aboutus',
+    'name' => 'About Us',
+    'template' => 'about-us.tpl.php',
     'title' => 'Company Name - About Us'
 ]);
 
 define ('OUROFFER', [
-    'template' => 'our-offer.php',
+    'action' => 'ouroffer',
+    'name' => 'Our Offer',
+    'template' => 'our-offer.tpl.php',
     'title' => 'Company Name - Our Offer'
 ]);
 
 define ('CUSTOMERPROTECTION', [
-    'template' => 'customer-protection.php',
+    'action' => 'customerprotection',
+    'name' => 'Customer Protection',
+    'template' => 'customer-protection.tpl.php',
     'title' => 'Company Name - Customer Protection'
 ]);
 
 define ('CONTACT', [
-    'template' => 'contact.php',
+    'action' => 'contact',
+    'name' => 'Contact',
+    'template' => 'contact.tpl.php',
     'title' => 'Company Name - Contact'
 ]);
 
 define ('FEEDBACK', [
-    'template' => 'feedback.php',
-    'title' => 'Company Name - Feedback'
+    'action' => 'feedback',
+    'name' => 'Feedback',
+    'template' => 'feedback.tpl.php',
+    'title' => 'Company Name - Feedback',
+    'extra_css_1' => 'css/bootstrap.min.css',
+    'extra_css_2' => 'css/feedback.css',
 ]);
