@@ -14,8 +14,6 @@ class IndexController {
         # Fälle berücksichtigen: falls ein action-Value keine Template-Datei hat
         # Problematik: Name Template und Name action-Value
         # Daten an View übergeben
-
-        
         
         $this->render();
     }
