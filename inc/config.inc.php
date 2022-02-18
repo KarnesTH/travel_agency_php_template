@@ -4,35 +4,36 @@ define ('MAIN', [
     'action' => 'main',
     'name' => 'Main',
     'template' => 'main.tpl.php',
-    'title' => 'Company Name - Main'
+    'title' => 'Company Name - Main',
 ]);
 
 define ('ABOUTUS', [
     'action' => 'aboutus',
     'name' => 'About Us',
     'template' => 'about-us.tpl.php',
-    'title' => 'Company Name - About Us'
+    'title' => 'Company Name - About Us',
 ]);
 
 define ('OUROFFER', [
     'action' => 'ouroffer',
     'name' => 'Our Offer',
     'template' => 'our-offer.tpl.php',
-    'title' => 'Company Name - Our Offer'
+    'title' => 'Company Name - Our Offer',
+    'actionMethode' => 'showOfferAction',
 ]);
 
 define ('CUSTOMERPROTECTION', [
     'action' => 'customerprotection',
     'name' => 'Customer Protection',
     'template' => 'customer-protection.tpl.php',
-    'title' => 'Company Name - Customer Protection'
+    'title' => 'Company Name - Customer Protection',
 ]);
 
 define ('CONTACT', [
     'action' => 'contact',
     'name' => 'Contact',
     'template' => 'contact.tpl.php',
-    'title' => 'Company Name - Contact'
+    'title' => 'Company Name - Contact',
 ]);
 
 define ('FEEDBACK', [

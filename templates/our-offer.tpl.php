@@ -20,162 +20,21 @@
                      <a href="#" class="wow fadeInRight" data-wow-delay="1.2s" data-filter=".australia">Australia</a>
                   </div>
                   <div class="filterable-items">
-                     <div class="filterable-item south-america">
-                        <article class="offer-item">
-                           <figure class="featured-image">
-                              <img src="images/dummy/offer-thumbnail-1.jpg" alt="">
-                           </figure>
-                           <h2 class="entry-title"><a href="#">Efficitur efficitur convallis</a></h2>
-                           <p>Sed vitae fermentum lacus in augue massa pellentesque mauris vel iaculis sclerisque nulla</p>
-                           <div class="price">
-                              <strong>$2900</strong>
-                              <small>/10 days</small>
-                           </div>
-                        </article>
-                     </div>
-                     <div class="filterable-item asia">
-                        <article class="offer-item">
-                           <figure class="featured-image">
-                              <img src="images/dummy/offer-thumbnail-2.jpg" alt="">
-                           </figure>
-                           <h2 class="entry-title"><a href="#">Efficitur efficitur convallis</a></h2>
-                           <p>Sed vitae fermentum lacus in augue massa pellentesque mauris vel iaculis sclerisque nulla</p>
-                           <div class="price">
-                              <strong>$2900</strong>
-                              <small>/10 days</small>
-                           </div>
-                        </article>
-                     </div>
-                     <div class="filterable-item africa">
-                        <article class="offer-item">
-                           <figure class="featured-image">
-                              <img src="images/dummy/offer-thumbnail-3.jpg" alt="">
-                           </figure>
-                           <h2 class="entry-title"><a href="#">Efficitur efficitur convallis</a></h2>
-                           <p>Sed vitae fermentum lacus in augue massa pellentesque mauris vel iaculis sclerisque nulla</p>
-                           <div class="price">
-                              <strong>$2900</strong>
-                              <small>/10 days</small>
-                           </div>
-                        </article>
-                     </div>
-                     <div class="filterable-item north-america">
-                        <article class="offer-item">
-                           <figure class="featured-image">
-                              <img src="images/dummy/offer-thumbnail-1.jpg" alt="">
-                           </figure>
-                           <h2 class="entry-title"><a href="#">Efficitur efficitur convallis</a></h2>
-                           <p>Sed vitae fermentum lacus in augue massa pellentesque mauris vel iaculis sclerisque nulla</p>
-                           <div class="price">
-                              <strong>$2900</strong>
-                              <small>/10 days</small>
-                           </div>
-                        </article>
-                     </div>
-                     <div class="filterable-item europe">
-                        <article class="offer-item">
-                           <figure class="featured-image">
-                              <img src="images/dummy/offer-thumbnail-2.jpg" alt="">
-                           </figure>
-                           <h2 class="entry-title"><a href="#">Efficitur efficitur convallis</a></h2>
-                           <p>Sed vitae fermentum lacus in augue massa pellentesque mauris vel iaculis sclerisque nulla</p>
-                           <div class="price">
-                              <strong>$2900</strong>
-                              <small>/10 days</small>
-                           </div>
-                        </article>
-                     </div>
-                     <div class="filterable-item australia">
-                        <article class="offer-item">
-                           <figure class="featured-image">
-                              <img src="images/dummy/offer-thumbnail-3.jpg" alt="">
-                           </figure>
-                           <h2 class="entry-title"><a href="#">Efficitur efficitur convallis</a></h2>
-                           <p>Sed vitae fermentum lacus in augue massa pellentesque mauris vel iaculis sclerisque nulla</p>
-                           <div class="price">
-                              <strong>$2900</strong>
-                              <small>/10 days</small>
-                           </div>
-                        </article>
-                     </div>
-                     <div class="filterable-item south-america">
-                        <article class="offer-item">
-                           <figure class="featured-image">
-                              <img src="images/dummy/offer-thumbnail-1.jpg" alt="">
-                           </figure>
-                           <h2 class="entry-title"><a href="#">Efficitur efficitur convallis</a></h2>
-                           <p>Sed vitae fermentum lacus in augue massa pellentesque mauris vel iaculis sclerisque nulla</p>
-                           <div class="price">
-                              <strong>$2900</strong>
-                              <small>/10 days</small>
-                           </div>
-                        </article>
-                     </div>
-                     <div class="filterable-item asia">
-                        <article class="offer-item">
-                           <figure class="featured-image">
-                              <img src="images/dummy/offer-thumbnail-2.jpg" alt="">
-                           </figure>
-                           <h2 class="entry-title"><a href="#">Efficitur efficitur convallis</a></h2>
-                           <p>Sed vitae fermentum lacus in augue massa pellentesque mauris vel iaculis sclerisque nulla</p>
-                           <div class="price">
-                              <strong>$2900</strong>
-                              <small>/10 days</small>
-                           </div>
-                        </article>
-                     </div>
-                     <div class="filterable-item africa">
-                        <article class="offer-item">
-                           <figure class="featured-image">
-                              <img src="images/dummy/offer-thumbnail-3.jpg" alt="">
-                           </figure>
-                           <h2 class="entry-title"><a href="#">Efficitur efficitur convallis</a></h2>
-                           <p>Sed vitae fermentum lacus in augue massa pellentesque mauris vel iaculis sclerisque nulla</p>
-                           <div class="price">
-                              <strong>$2900</strong>
-                              <small>/10 days</small>
-                           </div>
-                        </article>
-                     </div>
-                     <div class="filterable-item north-america">
-                        <article class="offer-item">
-                           <figure class="featured-image">
-                              <img src="images/dummy/offer-thumbnail-1.jpg" alt="">
-                           </figure>
-                           <h2 class="entry-title"><a href="#">Efficitur efficitur convallis</a></h2>
-                           <p>Sed vitae fermentum lacus in augue massa pellentesque mauris vel iaculis sclerisque nulla</p>
-                           <div class="price">
-                              <strong>$2900</strong>
-                              <small>/10 days</small>
-                           </div>
-                        </article>
-                     </div>
-                     <div class="filterable-item europe">
-                        <article class="offer-item">
-                           <figure class="featured-image">
-                              <img src="images/dummy/offer-thumbnail-2.jpg" alt="">
-                           </figure>
-                           <h2 class="entry-title"><a href="#">Efficitur efficitur convallis</a></h2>
-                           <p>Sed vitae fermentum lacus in augue massa pellentesque mauris vel iaculis sclerisque nulla</p>
-                           <div class="price">
-                              <strong>$2900</strong>
-                              <small>/10 days</small>
-                           </div>
-                        </article>
-                     </div>
-                     <div class="filterable-item australia">
-                        <article class="offer-item">
-                           <figure class="featured-image">
-                              <img src="images/dummy/offer-thumbnail-3.jpg" alt="">
-                           </figure>
-                           <h2 class="entry-title"><a href="#">Efficitur efficitur convallis</a></h2>
-                           <p>Sed vitae fermentum lacus in augue massa pellentesque mauris vel iaculis sclerisque nulla</p>
-                           <div class="price">
-                              <strong>$2900</strong>
-                              <small>/10 days</small>
-                           </div>
-                        </article>
-                     </div>
+                     <?php foreach ($offers as $offer) : ?>
+                        <div class="filterable-item south-america">
+                           <article class="offer-item">
+                              <figure class="featured-image">
+                                 <img src="<?= $offer->getImage() ?>" alt="<?= $offer->getTitle() ?>">
+                              </figure>
+                              <h2 class="entry-title"><a href="#"><?= $offer->getTitle() ?></a></h2>
+                              <p><?= $offer->getDescription() ?></p>
+                              <div class="price">
+                                 <strong>$<?= $offer->getPrice() ?></strong>
+                                 <small><?= $offer->getDuration() ?> days</small>
+                              </div>
+                           </article>
+                        </div>
+                     <?php endforeach; ?>
                   </div>
 
                   <div class="pagination wow fadeInUp">

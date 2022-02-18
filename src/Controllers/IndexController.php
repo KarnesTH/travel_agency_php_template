@@ -9,18 +9,21 @@ class IndexController {
     }
 
     public function run() {
-
-        # switch-Statement komplett ersetzen
-        # Fälle berücksichtigen: falls ein action-Value keine Template-Datei hat
-        # Problematik: Name Template und Name action-Value
-        # Daten an View übergeben
-        
+        if (isset($this->siteParameter['actionMethode']) && method_exists($this, $this->siteParameter['actionMethode'])) {
+            $actionMethod = $this->siteParameter['actionMethode'];
+            $this->$actionMethod();
+        } 
         $this->render();
     }
 
     protected function addContext($key, $value) {
         $this->context[$key] = $value;
         return $this;
+    }
+
+    public function showOfferAction() {
+        $offers = Offer::findAll();
+        $this->addContext('offers', $offers);
     }
 
     protected function render() {
