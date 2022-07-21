@@ -10,7 +10,7 @@ $optionen = [
 $db = new PDO(
     'mysql:host=localhost;dbname=travel_agency', // neue DB!
     'root',
-    'c37sWQPa@',
+    '',
     $optionen
 );
 
